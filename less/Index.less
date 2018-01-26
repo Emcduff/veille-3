@@ -2,24 +2,39 @@ body {
 	margin:0 auto;
 	padding:0;
 	text-align: center;
-	align-content: center;
 }
 
 nav {
 	display:inline-block;
-}
-
-main {
-	display:inline-flex;
+	position:fixed;
+	top:0px;
+	padding-top:3vh;
+	padding-bottom:2vh;
+	height:5vh;
+	width:100vw;
+	background-color: green;
 }
 
 header {
-	position:fixed;
-	top:0px;
+	position:relative;
+	top:10vh;
+	height:55vh;
+	width:100vw;
+}
+
+main {
+	position:relative;
+	top:10vh;
+	height:700px;
+	width:100vw;
+	display:inline-block;
+	background-color: blue;
 }
 
 footer {
-	position:absolute;
-	left:40%;
-	bottom:0%;
+	position:relative;
+	bottom:-10vh;
+	height:200px;
+	width: 100vw;
+	background-color: grey;
 }
