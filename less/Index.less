@@ -6,15 +6,27 @@ body {
 }
 
 nav {
-	display:inline-block;
 	position:fixed;
 	top:0px;
-	padding-top:3vh;
-	padding-bottom:2vh;
+	padding-top:2vh;
+	padding-bottom:3vh;
 	height:5vh;
 	width:100vw;
 	background-color: green;
 	font-size: 3vw;
+	z-index: 10;
+}
+
+nav ul {
+	list-style: none;
+	display: inline-flex;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	padding-left:4vw;
+	padding-right:4vw;
 }
 
 header {
@@ -22,6 +34,9 @@ header {
 	top:10vh;
 	height:55vh;
 	width:100vw;
+	background-image: url('../background.jpg');
+	background-size: fill;
+	background-position: 50% 60%;
 }
 
 main {
