@@ -3,6 +3,7 @@ body {
 	padding:0;
 	text-align: center;
 	font-family: Quicksand, sans-serif;
+	overflow-x: hidden;
 }
 
 nav {
@@ -35,14 +36,15 @@ header {
 	height:55vh;
 	width:100vw;
 	background-image: url('../background.jpg');
-	background-size: fill;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	background-position: 50% 60%;
 }
 
 main {
 	position:relative;
 	top:10vh;
-	height:685px;
+	height:702px;
 	width:100vw;
 	display:inline-block;
 	background-color: rgb(227, 249, 209);
@@ -53,8 +55,19 @@ footer {
 	position:relative;
 	bottom:-10vh;
 	height:100px;
-	padding-top:75px;
+	padding-top:50px;
+	padding-bottom:25px;
 	width: 100vw;
 	background-color: rgb(65, 66, 57);
 	color:white;
+}
+
+footer ul {
+	list-style: none;
+	display: inline-flex;
+}
+
+footer ul li {
+	padding-left:3vw;
+	padding-right:3vw;
 }
