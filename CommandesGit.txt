@@ -1,6 +1,5 @@
-git remote add origin https://github.com/edgarmcduff/wp-theme.git
+git remote add origin https://github.com/emcduff/veille.git
 git push - u origin master
-
 
 git add <nom du fichier> //indexer un fichier spécifique
 git add . // indexer l'ensemble des fichiers modifiés
